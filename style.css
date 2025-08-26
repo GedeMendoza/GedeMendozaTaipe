@@ -1,0 +1,224 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #bbb;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4fc3f7;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #4fc3f7;
+}
+
+.proyecto {
+    margin-bottom: 1.5rem;
+}
+
+.proyecto-contenido {
+    background-color: #292929;
+    height: 150px;
+    border-radius: 8px;
+    border: 2px dashed #555;
+}
+
+/* Para proyectos en blanco */
+.proyecto-contenido.blank {
+    background: transparent;
+    border-color: #777;
+}
+
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-top: 1px solid #333;
+}
+
+footer p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.redes-sociales a {
+    color: #bbb;
+    transition: color 0.3s;
+}
+
+.redes-sociales a:hover {
+    color: #4fc3f7;
+}
+
+/* Modo para no dañar la vista: evitar colores muy brillantes o contrastes muy fuertes */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #bbb;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4fc3f7;
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #4fc3f7;
+}
+
+.proyecto {
+    margin-bottom: 1.5rem;
+}
+
+.proyecto-contenido {
+    background-color: #292929;
+    height: 150px;
+    border-radius: 8px;
+    border: 2px dashed #555;
+}
+
+/* Para proyectos en blanco */
+.proyecto-contenido.blank {
+    background: transparent;
+    border-color: #777;
+}
+
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-top: 1px solid #333;
+}
+
+footer p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.redes-sociales a {
+    color: #bbb;
+    transition: color 0.3s;
+}
+
+.redes-sociales a:hover {
+    color: #4fc3f7;
+}
+
+/* Modo para no dañar la vista: evitar colores muy brillantes o contrastes muy fuertes */
+
